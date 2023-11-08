@@ -1,0 +1,48 @@
+.hero {
+    &__body {
+        display: flex;
+        gap: 107px;
+        justify-content: space-between;
+
+        @include mobile {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 44px;
+        }
+    }
+
+    &__content {
+
+        @include mobile {
+            text-align: center;
+        }
+
+        h1 {
+            color: $primary-color;
+            line-height: 60px;
+
+            font: {
+                family: $font-family;
+                size: 44px;
+                weight: 700;
+            }
+        }
+
+        p {
+            color: $primary-color;
+
+            font: {
+                family: $font-family;
+                size: 15px;
+                weight: 400;
+            }
+
+            padding: {
+                top: 30px;
+                bottom: 30px;
+            }
+
+        }
+
+    }
+}

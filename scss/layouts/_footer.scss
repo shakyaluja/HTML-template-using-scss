@@ -1,0 +1,24 @@
+//footer section 
+
+.lastline {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        font-size: 30px;
+    }
+
+    &-wrapper {
+        p {
+            text-align: center;
+            padding: 20px;
+
+            font: {
+                family: 'Heebo';
+                weight: 400;
+                size: 14px;
+            }
+        }
+    }
+}

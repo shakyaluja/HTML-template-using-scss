@@ -1,0 +1,71 @@
+//pages section
+
+.pages {
+    background-color: #edf7fa;
+    padding-bottom: 20px;
+
+    &_user {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        p {
+            color: #00a8cc;
+
+            font: {
+                size: 16px;
+                family: $font-family;
+                weight: 400;
+            }
+        }
+
+        h2 {
+            color: $primary-color;
+
+            font: {
+                family: $font-family;
+                size: 22px;
+            }
+        }
+    }
+
+    &_work {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        @include mobile {
+            flex-direction: column;
+            margin: 10px;
+        }
+    }
+
+    &_worker {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+
+        h2 {
+            color: $primary-color;
+            padding: 20px;
+
+            font: {
+                size: 25px;
+                weight: 700;
+                family: 'Heebo';
+            }
+        }
+
+        p {
+            color: $primary-color;
+            padding: 20px;
+
+            font: {
+                size: 15px;
+                weight: 400;
+                family: 'Heebo';
+            }
+        }
+    }
+}

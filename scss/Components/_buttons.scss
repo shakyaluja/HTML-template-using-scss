@@ -1,0 +1,28 @@
+//buttons
+//hero section
+.hero {
+    &__content {
+        .btn-primary {
+            padding: 10px 20px;
+            border-radius: 2px;
+            background: $bg-color;
+            border: none;
+            color: $font-color;
+        }
+    }
+}
+
+
+
+//feature section
+.feature {
+    &_task {
+        .btn-primary {
+            padding: 5px 10px;
+            border-radius: 29px;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Heebo';
+        }
+    }
+}

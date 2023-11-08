@@ -1,0 +1,19 @@
+//header section
+.header__wrapper {
+    ul{
+        display: flex;
+        justify-content: end;
+        gap:32px;
+        padding:27px;
+        li{
+            a{
+              font-size: 20px;
+              font-weight: 500;
+              line-height: normal;
+              font-family:$font-family;
+              color:#000;
+              text-decoration: none;  
+            }
+        }
+    }   
+}
